@@ -1,0 +1,203 @@
+/**********************
+* Pagina Partners CSS *
+**********************/
+.brand-content{ 
+    background-color: #fff;
+    float: left; 
+    width: 100%;
+}
+.brand-logo {
+    float: left;    
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 20px;
+}
+.brand-logo img{
+    max-width: 100%;
+}
+
+.menu-pag-partners ul{
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    float: left;
+}
+
+.menu-pag-partners ul li{
+    display: block;
+    width: 8.3%;
+    float: left;
+    text-align: center;
+    font-size: 11px;
+}
+
+.menu-pag-partners ul li .menu-image{
+    width: 100%;
+    height: auto;
+}
+
+.menu-pag-partners ul li .menu-image img{
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.menu-pag-partners ul li .menu-description{
+    width: 100%;
+    height: auto;
+    font-size: 11px;
+    letter-spacing: 0.5pt;
+    color: #161616;
+    line-height: 10pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-family: "PT Sans", sans-serif !important;
+}
+
+.menu-pag-partners2 ul{
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+}
+
+.menu-pag-partners2 ul li{
+    display: inline-block;
+    width: 19.676%;
+    font-variant: small-caps;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 11px;
+}
+
+.menu-pag-partners2 ul li .menu-image{
+    width: 100%;
+    height: 80px;
+}
+
+.menu-pag-partners2 ul li .menu-image img{
+    margin: 0 auto;
+}
+
+
+.menu-pag-partners2 ul li .menu-description{
+    width: 100%;
+    height: 30px;
+}
+
+.btn-menu-partners {
+    width: 100%;
+    color: #000 !important;
+    background-color: transparent !important;
+    text-transform: uppercase;
+    border: 1px solid #ADADAD !important;
+    font-size: 10px !important;
+    padding: 3% 3% !important;
+    border-radius: 0px !important;
+    margin-bottom: 10px;
+}
+
+.btn-menu-partners:hover{
+    background-color: #adadad !important;
+    color: white !important;
+}
+
+@media (min-width: 767px) {
+    /*.brand-content{
+        display: table;
+    }*/
+
+    .brand-logo{
+        /*display: table-cell; 
+        vertical-align: middle;*/
+        text-align: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .menu-pag-partners ul li {
+        width: 20%;
+    }
+}
+.brand-catalogue{
+    position: relative;
+}
+
+.brand-catalogue .catalogue-form{
+    position: absolute; 
+    z-index: 1; 
+    width: calc(100% - 10px); 
+    height: calc(100% - 10px); 
+    background-color: #fff; 
+    top:5px;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visibility 0.5s, opacity 0.5s ease-in-out;
+    transition: visibility 0.5s, opacity 0.5s ease-in-out;
+}
+
+.brand-catalogue:hover .catalogue-form{
+    visibility: visible;
+    opacity: 1;
+}
+
+.brand-catalogue .btn-get_price, .brand-catalogue .field-input, .brand-catalogue .field-select{
+    border-radius: 0px;
+    margin: 0;
+    margin-bottom: 5px !important;
+    border: 1px solid #ababab;
+    font-size: 11px;
+    padding: 5px !important;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    font-weight: normal;
+}
+
+p.category-divider {
+    background: #fff;
+    padding: 0 15px;
+    text-align: center;
+    color: #554728;
+    text-transform: uppercase;
+    font-family: "PT Sans", sans-serif;
+}
+hr.social-line {
+    border-top: 1px solid #E7E7E7;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+.menu-partners {
+    margin-bottom: 30px;
+    float: left;
+    width: 100%;
+}
+div#BL {
+    margin-bottom: 30px;
+}
+div#DL {
+    margin-bottom: 30px;
+}
+div#BB {
+    margin-bottom: 30px;
+}
+div#EH {
+    margin-bottom: 30px;
+}
+div#MV {
+    margin-bottom: 30px;
+}
+div#CC {
+    margin-bottom: 30px;
+}
+.products-content {
+    text-transform: uppercase;
+}
+.products-content p {
+    font-size: 11px;
+    line-height: 12pt;
+}
+
+/*****************END CSS PARTNERS *****************/
+
+

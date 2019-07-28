@@ -1,0 +1,399 @@
+/*style home*/
+
+@font-face {
+    font-family: 'Bodoni';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bodoni'), url('/font/bodoni.woff') format('woff');
+}
+@font-face {
+    font-family: 'ProximaNovaRegular';src: url('/font/ProximaNova-Regular.otf') format('opentype');font-weight: normal;font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNovaSemiBold';src: url('/font/ProximaNova-Semibold.otf') format('opentype');font-weight: 600;font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNovaBold';src: url('/font/ProximaNova-Bold.otf') format('opentype');font-weight: 600;font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNovaLight';src: url('/font/proximanovalight.eot');src: local('proximanovalight'), url('/font/proximanovalight.woff') format('woff'), url('/font/proximanovalight.ttf') format('truetype');
+}
+img {
+    max-width: 100%;
+}
+.bg-black {
+    background-color: black;
+}
+.mb30 {
+    margin-bottom: 30px;
+}
+.visual-menu-home-content {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.visual-menu-home {
+    width: 14.2%;
+    float: left;
+    text-align: center;
+}
+.visual-menu-home a {
+    color: #414141;
+    letter-spacing: 0.5pt;
+}
+.pages-home {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 17px;
+    left: 0px;
+}
+.pages-home h3 {
+    font-size: 25px;
+    margin-bottom: 0px;
+    color: white;
+    letter-spacing: 0.6pt;
+    font-family: 'Bodoni';
+}
+.pages-home h5 {
+    color: white;
+    width: auto;
+    display: inline-block;
+    padding: 5px;
+    font-size: 10px;
+    letter-spacing: 1pt;
+    font-weight: lighter;
+}
+.new-product-home {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.new-product-home h3 {
+    font-size: 25px;
+    margin-bottom: 2px;
+    color: #333;
+    letter-spacing: 0.6pt;
+    font-family: 'Bodoni';
+}
+.new-product-home h4 {
+    font-size: 13px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: #333;
+    letter-spacing: 0.6pt;
+}
+.new-product-home h5 {
+    color: #333;
+    border: 1px solid #333;
+    width: auto;
+    display: inline-block;
+    padding: 5px;
+    font-size: 9px;
+    letter-spacing: 0.6pt;
+    font-weight: lighter;
+}
+.slide-title h3 {
+    font-size: 43px;
+    margin-bottom: 2px;
+    color: #fff;
+    letter-spacing: 0.5pt;
+    font-family: 'Bodoni';
+}
+.slide-title h5 {
+    font-size: 17px;
+    margin-bottom: 2px;
+    color: #fff;
+    letter-spacing: 1pt;
+    font-family: 'ProximaNovaLight';
+    font-weight: lighter; 
+}
+.slide-description {
+    font-size: 13px;
+    color: white;
+    font-weight: normal;
+    letter-spacing: 1pt;
+    line-height: 15pt;
+    font-family: 'ProximaNovaLight';
+    margin-bottom: 27px;
+}
+.discover-more {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    display: initial;
+    padding: 6px;
+    letter-spacing: 1pt;
+    font-weight: lighter;
+    font-size: 10px;
+    font-family: 'ProximaNovaLight';
+}
+
+/*style footer*/
+.sub-footer {
+    font-size: 10px;
+    line-height: 13pt;
+    cursor: pointer;
+    color: #666666;
+    letter-spacing: 1px;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+.sub-footer h5 {
+    margin-top: 0px;
+    font-size: 12px;
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1pt;
+    color: #262626;
+}
+.sub-footer a {
+    font-size: 10px;
+    cursor: pointer;
+    color: #666666;
+    letter-spacing: 1px;
+    text-align: left;
+    font-weight: 600;
+}
+.sub-footer input {
+    width: 100%;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    font-size: 11px;
+    font-weight: normal;
+    height: 34px;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.sub-footer input#subscribe-tag {
+    background-color: black;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    line-height: 19pt;
+    border-radius: 2px;
+    letter-spacing: 0.8pt;
+}
+.background-histoy {
+    background-image: url(https://www.luxxu.net/images/footer/footer-background.jpg);
+    background-size: 100%;
+    padding: 35px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    float: left;
+    width: 100%;
+}
+.background-histoy .social a {
+    float: left;
+}
+ul#parsley-id-7 {
+    margin-bottom: 0px;
+}
+li.parsley-required {
+    color: #333;
+    padding-top: 0px;
+    margin-bottom: 10px;
+    font-size: 11px;
+    line-height: 10pt;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+/*simple scroll FOOTER*/
+
+/* Container DIV - automatically generated */
+.simply-scroll-container {
+    position: relative;
+}
+
+/* Clip DIV - automatically generated */
+.simply-scroll-clip {
+    position: relative;
+    overflow: hidden;
+}
+
+/* UL/OL/DIV - the element that simplyScroll is inited on
+Class name automatically added to element */
+.simply-scroll-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.simply-scroll-list li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.simply-scroll-list li img {
+    border: none;
+    display: -webkit-inline-box;
+}
+
+/* Custom class modifications - adds to / overrides above
+
+.simply-scroll is default base class */
+
+/* Container DIV */
+.simply-scroll {
+    width: 100%;
+    height: 57px;
+    margin-bottom: 1em;
+    padding: 10px 0;
+}
+/* Clip DIV */
+.simply-scroll .simply-scroll-clip {
+    width: 100%;
+    height: 57px;
+}
+
+/* Explicitly set height/width of each list item */
+.simply-scroll .simply-scroll-list li {
+    float: left; /* Horizontal scroll only */
+    padding: 0;
+    margin: 0px 22px;
+    list-style: none;
+    width: 120px;
+    text-align: center;
+}
+.caroufredsel_wrapper{
+    height:50px !important;
+}
+.simply-scroll .simply-scroll-list {
+    margin-right: 0px;
+}
+
+
+/*instagram feed*/
+
+li.feed-item.juicer.image-post.slick-slide {
+  display: none;
+}
+h1.referral {
+  display: none !important;
+}
+.j-overlay .j-close {
+  top: 10px !important;
+}
+.juicer-feed.image-grid .j-text, .juicer-feed.slider .j-text, .juicer-feed.hip .j-text {
+  background: rgba(221, 219, 219, 0.33) !important;
+  cursor: pointer;
+}
+.juicer-feed.slider .slick-prev, .juicer-feed.slider .slick-next {
+  height: 40px !important;
+  background-color: #000000ad !important;
+}
+.juicer-feed.slider .slick-prev:before, .juicer-feed.slider .slick-next:before {
+  font-size: 20px !important;
+  line-height: 20px !important;
+  color: white;
+}
+.j-post-overlay.juicer-feed.loaded {
+  padding: 25px;
+}
+.j-overlay-text .j-message p {
+  display: block;
+}
+.j-facebook .j-message p {
+display: block;
+}
+li.feed-item.juicer.image-post {
+display: none;
+}
+.j-message p {
+  font-size: 12px;
+  text-align: left;
+  line-height: 12pt;
+  color: white !important;
+  display: none;
+  color: black !important;
+}
+.j-message p a {
+  color: black !important;
+}
+a.juicer-button.j-instagram {
+  color: black !important;
+  border-color: black !important;
+}
+a.juicer-button.j-instagram:hover {
+  background: black !important;
+  color: white;
+}
+.j-post-overlay.juicer-feed .j-navigate a.j-previous, .j-post-overlay.juicer-feed .j-navigate a.j-next {
+  width: 48%;
+}
+.j-post-overlay.juicer-feed .j-navigate {
+  width: 99%;
+  bottom: 50% !important;
+}
+a.j-previous {
+  float: left;
+  text-align: left;
+}
+a.j-next {
+  float: right;
+  text-align: right;
+}
+.j-post-overlay.juicer-feed ul.j-share {
+  position: relative !important;
+}
+.juicer-feed.slider .slick-prev:hover:before, .juicer-feed.slider .slick-next:hover:before {
+  color: white !important;
+}
+ul.social-page.text-center li {
+display: inline-block;
+padding-left: 4px;
+padding-right: 4px;
+}
+ul.social-page.text-center li img {
+width: 30px;
+}
+
+
+@media screen and (max-width: 930px) {
+    .background-histoy {
+        background-image: url(https://www.luxxu.net/images/footer/footer-background-mobile.jpg);
+        background-color: black;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .text-center-xs {
+        text-align: center !important;
+    }
+    .text-center-xs a {
+        text-align: center !important;
+    }
+    .mbmobile {
+        margin-bottom: 20px;
+    }
+    .cvtg a {
+        float: none !important;
+    }
+    .cvtg img {
+        display: inline;
+    }
+    .background-histoy .social a {
+        float: none !important; 
+        display: inline-block;
+    }
+    .visual-menu-home {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}

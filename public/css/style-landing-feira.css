@@ -1,0 +1,118 @@
+/**
+ * Reset
+ * ----------------------------------------------------------------------------
+ */
+
+ .title-landing-decorex {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.title-landing-decorex h1 {
+    background-color: white;
+    width: auto;
+    text-align: center;
+    max-width: 200px;
+    margin: 0 auto;
+    border: none;
+    z-index: 100000000;
+    margin-top: -15px;
+}
+.main_area h2 {
+    font-weight: bold;
+    border-bottom: 0px;
+    text-align: left;
+}
+.border-black {
+    border-bottom: 1px solid black;
+}
+div#carousel img {
+    max-width: 100%;
+}
+.form-appointment {
+    display: none;
+}
+div#form-appointment input.name {
+    width: 32.15%;
+    float: left;
+    margin-right: 20px;
+}
+div#form-appointment input.company {
+    width: 32.15%;
+    float: left;
+    margin-right: 20px;
+}
+div#form-appointment input.email {
+    width: 31.4%;
+    float: left;
+}
+div#form-appointment button {
+    float: right;
+    width: auto;
+}
+#click-for-app {
+    margin-bottom: 25px;
+}
+.content_fair_area p {
+    line-height: 22pt;
+}
+.row.main_area.area_products .product_thumb {
+    margin-bottom: 0px;
+}
+div#slider img{
+    max-width: 100%;
+}
+div#carousel li.flex-nav-prev {
+    position: absolute;
+    background: url('http://www.luxxu.net/images/nav_next.png');
+    background-size: 30px;
+    width: 28px;
+    height: 39px;
+    display: block;
+    z-index: 995;
+    opacity: 1;
+    font-size: 0;
+    top: 35% !important;
+    right: 0px;
+}
+div#carousel li.flex-nav-prev a {
+    width: 28px;
+    height: 55px;    
+}
+#carousel li.flex-nav-next {
+    position: absolute;
+    background: url('http://www.luxxu.net/images/nav_prev.png');
+    background-size: 30px;
+    width: 28px;
+    height: 39px;
+    display: block;
+    z-index: 995;
+    opacity: 1;
+    background-repeat: no-repeat;
+    font-size: 0;
+    top: 35% !important;
+    left: 0px;
+}
+div#carousel li.flex-nav-next a {
+    width: 28px;
+    height: 55px;    
+}
+
+@media screen and (min-width: 1200px) {
+    div#form-appointment input.email {
+        width: 32.15%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    div#form-appointment input.name {
+        width: 100%;
+    }
+    div#form-appointment input.company {
+        width: 100%;
+    }
+    div#form-appointment input.email {
+        width: 100%;
+    }
+}

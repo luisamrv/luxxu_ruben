@@ -1,0 +1,253 @@
+/* HOME CSS FILE */
+
+.ebook-title{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: "PT Sans", sans-serif;
+    color: #000000;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.luxxu-present {
+  position: relative;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: "PT Sans", sans-serif;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+/*.ebook-title::after{
+    position: absolute;
+    content: ' ';
+    width: 100%;
+    left: 0;
+    bottom: -5px;
+    border-top: 1px solid #ccc;
+}*/
+
+#ebook-download {
+    background-color: transparent;
+    background-clip: content-box;
+    border: 1px solid #e7e7e7;
+    padding: 0px;
+}
+
+#ebook-download input#inputName {
+    border: 1px solid #ccc;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    outline: none;
+}
+
+#ebook-download input#inputEmail {
+    border: 1px solid #ccc;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    outline: none;
+}
+
+#ebook-form select#inputCountry {
+    border: 1px solid #ccc;
+    font-size: 12px !important;
+    text-transform: uppercase;
+    margin-bottom: 12px !important;
+    outline: none;
+    padding: 5px 0px 4px 4px !important;
+    font-family: 'PT Sans', sans-serif !important;
+    letter-spacing: 0 !important;
+    width: 100% !important;
+}
+
+
+#carousel-ebooks .carousel-inner .item img {
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    display: inherit;
+}
+
+#ebook-download button.field-submit.field-submit-mr-top {
+    background-color: black;
+    border: none;
+    font-weight: lighter;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1pt;
+    outline: none;
+}
+#ebook-download .parsley-errors-list {
+  float: left;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+a.right.carousel-control {
+    right: 60px !important;
+    top: 40%;
+    margin-right: 0px;
+    opacity: 1 !important;
+    width: 45px;
+    height: 62px;
+    position: absolute;
+    z-index: 1000000;
+    font-size: 0;
+    background: url(http://www.luxxu.net/images/nav_next_sm.png) no-repeat !important;
+}
+
+a.left.carousel-control {
+    opacity: 1 !important;
+    top: 40%;
+    left: 60px !important;
+    margin-left: 0px;
+    width: 45px;
+    height: 62px;
+    position: absolute;
+    z-index: 1000000;
+    font-size: 0;
+    background: url(http://www.luxxu.net/images/nav_prev_sm.png) no-repeat !important;
+}
+
+.alert.alert-success {
+  background-color: transparent;
+    border: none;
+    padding: 0px;
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    font-family: 'PT', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    color: #3d3d3d;
+}
+.alert.alert-success a {
+    text-align: left;
+    margin-top: 7px;
+}
+form.form-horizontal {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+  #ebook-form {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+  a.left.carousel-control {
+    left: 40px !important;
+  }
+  a.right.carousel-control {
+    right: 40px !important;
+  }
+}
+
+   @media (min-width: 768px) {
+    #ebook-download{
+     display: flex;
+    }
+
+    #ebook-form{
+     display: flex;
+     flex: 1 0 auto; 
+     justify-content: space-around; 
+     align-self: center; 
+     flex-direction: column;
+     padding-left: 45px;
+        padding-right: 95px;
+    }
+
+    #ebook-caroucel{
+        padding-right: 70px;
+        padding-left: 15px;
+    }  
+   }
+
+   @media screen and (min-width: 768px){
+     .carousel-control .fa-chevron-circle-left, 
+     .carousel-control .icon-prev {
+         margin-left: -10px;
+     }
+
+     .carousel-control .fa-chevron-circle-right, 
+     .carousel-control .icon-next {
+       margin-right: -10px;
+     }
+   }
+
+   @media screen and (min-width: 768px){
+   .carousel-control .fa-chevron-circle-left, 
+   .carousel-control .fa-chevron-circle-right, 
+   .carousel-control .icon-prev, 
+   .carousel-control .icon-next {
+       width: 30px;
+       height: 30px;
+       margin-top: -10px;
+       font-size: 30px;
+   }
+   .carousel-control .icon-prev, 
+   .carousel-control .fa-chevron-circle-left {
+       left: 50%;
+       margin-left: -10px;
+   }
+
+   .carousel-control .icon-next, 
+   .carousel-control .fa-chevron-circle-right {
+       right: 50%;
+       margin-right: -10px;
+   }
+   .carousel-control .icon-prev, 
+   .carousel-control .icon-next, 
+   .carousel-control .fa-chevron-circle-left, 
+   .carousel-control .fa-chevron-circle-right {
+       position: absolute;
+       top: 50%;
+       margin-top: -10px;
+       z-index: 5;
+       display: inline-block;
+   }
+   }
+
+   .carousel-control .icon-next, 
+   .carousel-control .fa-chevron-circle-right {
+       right: 50%;
+       margin-right: -10px;
+   }
+
+   .carousel-control .icon-prev, 
+   .carousel-control .fa-chevron-circle-left {
+       left: 50%;
+       margin-left: -10px;
+   }
+
+   .carousel-control .icon-prev, 
+   .carousel-control .icon-next, 
+   .carousel-control .fa-chevron-circle-left, 
+   .carousel-control .fa-chevron-circle-right {
+       position: absolute;
+       top: 50%;
+       margin-top: -10px;
+       z-index: 5;
+       display: inline-block;
+       color: #000;
+   }
+
+   .carousel-control.left, 
+   .carousel-control.right{
+    background-image: none !important;
+   }
+
+   .infoHidden-3d,
+   .infoHidden-get-price,
+   .infoHidden-product-pdf,
+   .infoHidden-send-friend{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: 0 !important;
+   }
+}
